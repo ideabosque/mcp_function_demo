@@ -4,5 +4,6 @@ from __future__ import print_function
 
 __author__ = "bibow"
 
-__all__ = ["mcp_function_demo"]
-from .mcp_function_demo import MCPFunctionDemo
+from .mcp_function_demo import MCP_CONFIGURATION, MCPFunctionDemo
+
+__all__ = ["MCPFunctionDemo", "MCP_CONFIGURATION"]
